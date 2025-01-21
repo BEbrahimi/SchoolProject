@@ -1,17 +1,18 @@
 # School Management System
 
 ## Overview
-The School Management System is a Java-based application designed to streamline and automate school operations. It provides modules for managing students, teachers, classes, fees, attendance, and more. This system simplifies administrative tasks, improves record management, and enhances communication between stakeholders.
+The School Management System is a Java-based application designed to streamline and automate school operations. It provides modules for managing students, teachers, classes, with persian Language and more. This system simplifies administrative tasks, improves record management, and enhances communication between stakeholders.
 
 ---
 
 ## Features
 - **Student Management**
   - Add, update, delete, and view student details.
-  - Track student academic performance and attendance.
+  - Track student academic performance.
 
 - **Teacher Management**
-  - Manage teacher records, schedules, and assignments.
+  - Add, update, delete, and view teacher details.
+  - Manage teacher records.
 
 - **Class Management**
   - Organize classes, allocate teachers, and manage timetables.
@@ -19,9 +20,7 @@ The School Management System is a Java-based application designed to streamline 
 - **Fee Management**
   - Handle student fee payments and generate receipts.
 
-- **Attendance Management**
-  - Record and track attendance for students and teachers.
-
+-
 - **Reports**
   - Generate detailed reports on performance, attendance, and finances.
 
@@ -29,12 +28,12 @@ The School Management System is a Java-based application designed to streamline 
 
 ## Technologies Used
 - **Programming Language:** Java
-- **Database:** MySQL (or other relational databases)
+- **Database:** MySQL 
 - **Frameworks:**
-  - JavaFX/Swing for GUI (if applicable).
+  - Swing for GUI .
   - JDBC for database connectivity.
 - **Tools:**
-  - IDEs like IntelliJ IDEA, Eclipse, or NetBeans.
+  - IDE NetBeans.
   - Maven/Gradle for dependency management.
 
 ---
@@ -61,7 +60,7 @@ The School Management System is a Java-based application designed to streamline 
      ```properties
      db.url=jdbc:mysql://localhost:3306/school_management
      db.username=root
-     db.password=password
+     db.password=""
      ```
 
 4. **Build and Run the Application:**
@@ -99,5 +98,5 @@ This project is licensed under the MIT License. See the `LICENSE` file for more 
 
 ## Contact
 For any queries or support, please contact:
-- **Email:** support@schoolmanagement.com
+- **Email:** bashir.ebrahimi01@gmail.com
 - **GitHub:** [https://github.com/BEbrahimi/SchoolProject](https://github.com/BEbrahimi)
